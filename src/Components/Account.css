@@ -1,0 +1,43 @@
+.title{
+    font-size:50px;
+    font-family: big; 
+    margin-top: 20px; 
+}
+
+.input-field{
+    width:300px;
+    height:40px;
+    margin:20px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+}
+
+.btn{
+    background-color: lightcoral;
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    border: 1px solid gray; 
+    font-family: medium;
+}
+
+.sgn{
+    font-family: medium;    
+}
+.error{
+    color: red;
+    text-align: center;
+    font-size: 20px;
+    font-family: medium; 
+}
+
+*{
+  overflow-x: hidden;
+}
+
+.login-screen{
+   font-family: big;
+   font-size: 80px;
+   padding: 20px; 
+}

@@ -1,0 +1,49 @@
+.logo h2:nth-child(1){
+    font-size: 96px;
+    font-family: big;
+    margin-bottom: -15px;
+    padding: 5px;
+    overflow: hidden;
+}
+
+.logo h2:nth-child(2){
+     font-size: 36px;
+     font-family: big;
+     margin-bottom: -15px;
+     overflow: hidden;
+}
+
+.logo h2:nth-child(3){
+    font-size: 36px;
+    font-family: big;
+    overflow: hidden;
+}
+
+.font{
+  font-family: big;
+  font-size: 70px;
+  top: 40%;
+  left:40%;
+}
+
+
+
+@media only screen and (max-width: 500px){
+  .link p{
+    display: none;
+  }
+
+  .logo h2:nth-child(1){
+    font-size: 64px;
+}
+
+.logo h2:nth-child(2){
+     font-size: 32px;
+}
+
+.logo p:nth-child(3){
+    
+}
+
+
+}

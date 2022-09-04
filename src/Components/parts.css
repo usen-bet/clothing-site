@@ -1,0 +1,86 @@
+.foot{
+    background-color: lightcoral;
+    position: fixed;
+    /* z-index: 1; */
+    height: 120px;
+    width: 100vw;
+}
+
+.foot h1{
+    font-family:medium ;
+    font-size: 20px;
+}
+
+.foot p{
+    font-family: medium;
+    font-size: 18px;
+}
+
+.arrange{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+}
+
+.texts{
+    font-size: 30px;
+    padding-top: 30px;
+    font-family: big;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 130px;
+}
+
+.anime{
+    transition: all 0.4s ease;
+    border-radius: 20px;
+    overflow-y: hidden;
+
+}
+
+.img{
+    background-image: url(./Images/Gowns/Image6.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 40px;
+}
+
+.img1{
+    background-image: url(./Images/Accessories/Image14.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 40px;
+}
+
+.img2{
+    background-image: url(./Images/jeans/Image15.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 40px;
+}
+
+.img3{
+    background-image: url(./Images/shirt/Image4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 40px;
+}
+
+.img4{
+    background-image: url(./Images/Shoes/Image19.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 40px;
+}
+
+/* .smoke{
+    background: linear-gradient(to top, whitesmoke, transparent);
+    position: relative;
+    bottom: 120px;
+
+} */
+
+@media only screen and (max-width: 1724px){
+    /* .smoke{
+        bottom: 0px;
+    } */
+}

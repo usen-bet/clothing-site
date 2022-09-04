@@ -1,0 +1,21 @@
+.navbar{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(255, 99, 71, 0.6);
+    height: 50px;
+    align-items: center;
+    border-bottom: 2px solid black;
+}
+
+.navbar p{
+    font-family: big;
+}
+
+.navbar p:hover{
+    color: lavender;
+}
+
+.navbar a:hover{
+    color: lavender;
+}

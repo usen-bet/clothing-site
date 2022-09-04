@@ -2,9 +2,14 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+@font-face {
+    src: url(./fonts/Caveat-Medium.ttf);
+    font-family:medium; 
+}
+
+@font-face {
+    src: url(./fonts/BrushSignature.ttf);
+    font-family: big;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -13,20 +18,19 @@
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.text{
+  font-family: big;
+  font-size: 18px;
 }
 
-.App-link {
-  color: #61dafb;
+.trip{
+  transition: all 0.3s linear;
 }
+
+.trip:hover{
+   border-bottom: 2px solid black; 
+}
+
 
 @keyframes App-logo-spin {
   from {
